@@ -6,17 +6,18 @@ body {
 .container {
     height: 100vh;
     overflow: hidden;
+    /* overflow:hidden; */
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    padding: .5em 1em;
+    /* padding: .5em 1em; */
 }
 
 .inner-container {
     display: flex;
     max-width: 70em;
-    width: 70%;
+    width: 80%;
     box-shadow: 0px 0px 4em #15161c !important;
     height: 85%;
 }
@@ -101,7 +102,7 @@ button {
 }
 
 nav {
-    padding-bottom: 2em;
+    padding-bottom: 2.5em;
     padding-left: 1.5em;
     padding-top: 0em;
     background-color: #282a36 !important;
