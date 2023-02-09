@@ -1,0 +1,105 @@
+        .container {
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            padding: .5em 1em;
+        }
+
+        .inner-container {
+            display: flex;
+            max-width: 70em;
+            width: 70%;
+            height: 85%;
+        }
+
+        iframe {
+            border: solid .1px black;
+        }
+
+        .inner-container>* {
+            height: 100%;
+            width: 100%;
+        }
+
+        .editor-container {
+            word-wrap: normal;
+            display: block;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        ::-webkit-scrollbar {
+            width: .7em !important;
+            height: .7em !important;
+            background: #282a36 !important;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #424659;
+            border-radius: 0.2em;
+
+        }
+
+        .editor {
+            height: 100%;
+            padding-bottom: 12em;
+        }
+
+        textarea {
+            opacity: 0;
+        }
+
+        .cm-s-dracula.CodeMirror,
+        .cm-s-dracula .CodeMirror-gutters {
+            height: calc(100% - 32px);
+            /* height: 100% - 50px; */
+            line-height: 2em;
+            /* padding: .4em; */
+            padding: 0 !important;
+        }
+
+        iframe {
+            height: calc(100% - 2px);
+            width: inherit;
+            background: white;
+        }
+
+        button {
+            padding: .5em 1.1em;
+            color: white;
+            cursor: pointer;
+            border: none;
+            position: absolute;
+            z-index: 3;
+            margin-top: 1em;
+            font-size: .7rem;
+        }
+
+        .run-button {
+            background: #3c4fbf;
+        }
+
+        .live-run {
+            margin-left: 5em;
+            background: rgb(91, 91, 91);
+            color: rgb(255, 255, 255);
+        }
+
+        .live-run.active {
+            background: white;
+            color: Black;
+            border-left: solid 5px rgb(0, 211, 0);
+        }
+
+        nav {
+            padding-bottom: 2em;
+            padding-left: 1.5em;
+            padding-top: 0em;
+            background-color: #282a36 !important;
+            color: #f8f8f2 !important;
+            border: none;
+
+        }
