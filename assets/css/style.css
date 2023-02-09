@@ -61,7 +61,7 @@ textarea {
 
 .cm-s-dracula.CodeMirror,
 .cm-s-dracula .CodeMirror-gutters {
-    height: calc(100% - 32px);
+    height: calc(100% - 42px);
     /* height: 100% - 50px; */
     line-height: 2em;
     /* padding: .4em; */
